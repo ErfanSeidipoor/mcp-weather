@@ -33,18 +33,8 @@ npm install
 1. Start the development server:
 
 ```bash
-npm start
+npm run dev
 ```
-
-2. Open your browser and navigate to `http://localhost:3000`.
-
-## Configuration
-
-- Obtain an API key from [OpenWeatherMap](https://openweathermap.org/api).
-- Create a `.env` file in the root directory and add your API key:
-  ```env
-  REACT_APP_WEATHER_API_KEY=your_api_key_here
-  ```
 
 ## Technologies Used
 
@@ -52,31 +42,6 @@ npm start
 - Node.js
 - OpenWeatherMap API
 - CSS
-
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch:
-
-```bash
-git checkout -b feature-name
-```
-
-3. Commit your changes:
-
-```bash
-git commit -m "Add feature-name"
-```
-
-4. Push to the branch:
-
-```bash
-git push origin feature-name
-```
-
-5. Open a pull request.
 
 ## License
 
