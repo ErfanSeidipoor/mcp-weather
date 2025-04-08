@@ -1,0 +1,28 @@
+{
+  "name": "56-how-to-guides--how-to-return-structured-output-from-the-prebuilt-react-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node -r ts-node/register src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0",
+    "zod": "^3.24.1"
+  },
+  "pnpm": {
+    "overrides": {
+      "@langchain/core": "0.3.13"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
